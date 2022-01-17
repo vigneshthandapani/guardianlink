@@ -1,0 +1,56 @@
+.container {
+    margin: 20px 0px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .input {
+    padding: 5px 15px;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .post-list {
+    margin-top: 10px;
+    text-align: left;
+    height: Calc(100vh - 120px);
+    overflow-y: auto;
+    padding-right:2px;
+  }
+  
+  .post {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    background: #eee;
+    border-radius: 10px;
+  }
+  
+  .post-title {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .post-body{
+    padding-top: 10px;
+    display: block;
+  }
+
+  .no-result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .input{
+      width: 80%;
+      margin: auto;
+    }
+  }

@@ -1,0 +1,3 @@
+export const COMMENT_LIST = 'COMMENT_LIST';
+export const COMMENT_IS_FETCHING =
+  'COMMENT_IS_FETCHING';

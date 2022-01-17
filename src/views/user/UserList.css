@@ -1,0 +1,13 @@
+.btn-create-user{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float: right;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-create-user:hover{
+    opacity: 0.7;
+}

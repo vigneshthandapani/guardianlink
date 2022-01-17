@@ -1,0 +1,65 @@
+
+#side-bar{
+    width: 160px;
+    background-color: #dc3545;
+    height: 100vh;
+    padding: 0px 0px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.slide-item{
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-item:hover{
+    background-color: rgb(224, 216, 216);
+    color: #dc3545;
+}
+
+.slide-item-selected{
+    background-color: white;
+    color: #dc3545;
+    font-weight: bold;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.item-name{
+    width: 80px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.show-mobile{
+    display: none;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 754px) {
+    #side-bar{
+        width: 50px;
+    }
+
+    .item-name{
+        display: none;
+    }
+
+    .show-mobile{
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .show-desktop{
+        display: none;
+    }
+}

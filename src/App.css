@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+#content-wrapper{
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  margin-left: 160px;
+  overflow: hidden;
+}
+
+.my-20px{
+  margin: 20px 0px;
+}
+
+@media only screen and (max-width: 754px) {
+  #content-wrapper{
+    margin-left: 50px;
+  }
+}
